@@ -16,3 +16,17 @@ setTimeout(function () {
   console.log("t");
 }, 3000);
 console.log("I HAPPEN SECOND!");
+
+console.log("Hi Everyone!");
+
+setTimeout(function timeout() {
+  console.log("MOOOOOO");
+}, 7000);
+
+setTimeout(function timeout() {
+  console.log("OINK OINKKK");
+}, 3000);
+
+console.log("Bye Everyone!");
+console.log("Bye For Real Everyone!");
+// https://latentflip.com/loupe/
